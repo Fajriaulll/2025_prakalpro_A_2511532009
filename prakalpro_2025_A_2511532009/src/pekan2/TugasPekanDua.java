@@ -36,9 +36,6 @@ public class TugasPekanDua {
 		System.out.println("\n");
 		int total = Harga1 + harga2 ;
 		System.out.println("      Harga Total : Rp " + String.format("%,d", total ));
-		
-		
-	
 	}
 
 }
