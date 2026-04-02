@@ -4,9 +4,9 @@ public class MobilDriver_2511532009 {
 	 public static void main(String[] args) {
 	     Mobil_2511532009 daftar = new Mobil_2511532009();
 
-	     Mobil_2511532009 m1 = new Mobil_2511532009("Avanza", 2020, 1300, 150000000, "Toyota");
-	     Mobil_2511532009 m2 = new Mobil_2511532009("Brio", 2021, 1200, 180000000, "Honda");
-	     Mobil_2511532009 m3 = new Mobil_2511532009("Xpander", 2022, 1500, 250000000, "Mitsubishi");
+	     Mobil_2511532009 m1 = new Mobil_2511532009("GTR", 2020, 1300, 150000000, "Supra");
+	     Mobil_2511532009 m2 = new Mobil_2511532009("Evolution3", 2021, 1200, 180000000, "Mitsubishi");
+	     Mobil_2511532009 m3 = new Mobil_2511532009("Karimun", 2022, 1500, 250000000, "Suzuki");
 
 	     daftar.tambahMobil(m1);
 	     daftar.tambahMobil(m2);
