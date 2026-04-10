@@ -6,12 +6,13 @@ public class ParkiranGacor {
 	private String jenisKendaraan;
 	private String namaPemilik;
 	
+	//konstruktor
 	public ParkiranGacor (String plat, String jenis, String nama) {
 		this.platNomor = plat;
 		this.jenisKendaraan = jenis;
 		this.namaPemilik = nama;
 	}
-	
+	//getter
 	public String getplatNomor () {
 		return platNomor;
 	}
@@ -21,7 +22,7 @@ public class ParkiranGacor {
 	public String getnamaPemilik () {
 		return namaPemilik;
 	}
-	
+	//setter
 	public void setplatNomor (String plat) {
 		this.platNomor = plat;
 	}
